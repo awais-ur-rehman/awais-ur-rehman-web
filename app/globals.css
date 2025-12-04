@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --background: #f5f5f5;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Inter", sans-serif, "saans Fallback";
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+
+  .navbar-name {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 600;
+    font-style: normal;
+    color: oklch(0.97 0 0);
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media (min-width: 640px) {
+    .navbar-name {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .navbar-marquee {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  @media (min-width: 640px) {
+    .navbar-marquee {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  .landing-top-row {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .landing-bottom-row {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.708 0 0);
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .landing-hero-text {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 600;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .landing-hero-title {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 600;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  @media (min-width: 768px) {
+    .landing-hero-title {
+      font-size: 120px;
+      line-height: 130px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .landing-hero-title {
+      font-size: 174.5px;
+      line-height: 56px;
+    }
+  }
+}
