@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "company": "ISSM.AI",
+    "jobType": "WEB DEVELOPER",
+    "year": "2025",
+    "image": "/assets/work/image1.jpg",
+    "technologies": ["NEXT.JS", "TAILWIND CSS", "TYPESCRIPT", "REACT", "NODE.JS"]
+  },
+  {
+    "id": 2,
+    "company": "BRIDGEFRAME",
+    "jobType": "WEB DEVELOPER",
+    "year": "2025",
+    "image": "/assets/work/img2.jpg",
+    "technologies": ["REACT", "NEXT.JS", "TAILWIND CSS", "TYPESCRIPT", "POSTGRESQL"]
+  },
+  {
+    "id": 3,
+    "company": "FREELANCE",
+    "jobType": "FULL STACK DEVELOPER",
+    "year": "2024",
+    "image": "/assets/work/image1.jpg",
+    "technologies": ["REACT", "NEXT.JS", "NODE.JS", "MONGODB", "EXPRESS"]
+  }
+]
+

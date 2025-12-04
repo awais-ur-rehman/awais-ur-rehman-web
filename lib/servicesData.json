@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Brand Strategy",
+    "description": "Helping others uncover their brand's purpose and uniqueness – and the game plan to deliver it to win their customers' devotion.",
+    "image": "/assets/work/image1.jpg",
+    "tags": ["RESEARCH & INSIGHTS", "BRAND STRATEGY", "COMPETITIVE STUDY", "VOICE & TONE", "NAMING & COPYWRITING", "WORKSHOPS"]
+  },
+  {
+    "id": 2,
+    "name": "Digital Design",
+    "description": "Designing engaging digital experiences that combine brand strategy and creativity with UX insights to deliver functionality and ease of use.",
+    "image": "/assets/work/img2.jpg",
+    "tags": ["IDENTITY DESIGN", "WIREFRAMING", "UI", "UX", "WEB DESIGN", "PRODUCT DESIGN"]
+  },
+  {
+    "id": 3,
+    "name": "Development",
+    "description": "Building digital products that combine design, technology, and business strategy to deliver seamless user experiences.",
+    "image": "/assets/work/image1.jpg",
+    "tags": ["FRONTEND DEVELOPMENT", "SEO", "MOTION", "ANIMATION", "WEBGL", "CMS DEVELOPMENT", "DATABASES"]
+  }
+]
+

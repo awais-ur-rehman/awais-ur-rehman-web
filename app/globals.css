@@ -115,4 +115,191 @@ body {
       line-height: 56px;
     }
   }
+
+  .about-heading {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 600;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about-content {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 600;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  @media (min-width: 768px) {
+    .about-content {
+      font-size: 48px;
+      line-height: 52px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .about-content {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+
+  .work-title {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 700;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 120px;
+    line-height: 96px;
+  }
+
+  @media (min-width: 768px) {
+    .work-title {
+      font-size: 160px;
+      line-height: 128px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .work-title {
+      font-size: 200px;
+      line-height: 160px;
+    }
+  }
+
+  .work-year {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 700;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 120px;
+    line-height: 96px;
+  }
+
+  @media (min-width: 768px) {
+    .work-year {
+      font-size: 160px;
+      line-height: 128px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .work-year {
+      font-size: 200px;
+      line-height: 160px;
+    }
+  }
+
+  .work-see-all {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.205 0 0);
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .work-card-info {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 600;
+    font-style: normal;
+    color: oklch(0.97 0 0);
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .work-tech {
+    font-family: "lcddot", "lcddot Fallback", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: oklch(0.87 0 0);
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .services-heading {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.708 0 0);
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .services-description {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.97 0 0);
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  @media (min-width: 768px) {
+    .services-description {
+      font-size: 48px;
+      line-height: 52px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .services-description {
+      font-size: 56px;
+      line-height: 59px;
+    }
+  }
+
+  .services-index {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.87 0 0);
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .services-name {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.97 0 0);
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  @media (min-width: 768px) {
+    .services-name {
+      font-size: 48px;
+      line-height: 72px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .services-name {
+      font-size: 56px;
+      line-height: 84px;
+    }
+  }
+
+  .services-item-description {
+    font-family: "Inter", sans-serif, "saans Fallback";
+    font-weight: 500;
+    font-style: normal;
+    color: oklch(0.97 0 0);
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .services-tag {
+    font-family: "lcddot", "lcddot Fallback", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: oklch(0.97 0 0);
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
